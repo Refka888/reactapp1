@@ -1,0 +1,402 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/Montserrat/Montserrat-ExtraBold.ttf") format("ttf");
+}
+:root {
+  --white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+nav {
+  height: 61px;
+  background-color: #303030;
+  
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+}
+.img1 {
+  padding-right: 7px;
+}
+.img2 {
+  padding-left: 10px;
+}
+body {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 22px;
+}
+.placeholder {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper {
+  text-align: right; 
+  padding-right: 150px;
+}
+.wrapperli{
+  display: inline-block;
+}
+.wrapperli a{
+  color:#fff;
+  width:160px;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 0.7rem;
+} 
+.wrapper a:hover{
+  background-color:#cfb995;
+}
+.wrapper li:hover .sub-menu {
+  display: block;
+  z-index: 1;
+}
+.sub-menu {
+  display: none;
+  position: absolute; 
+  list-style: none;
+  border: #57dbe6 solid 0.5px;
+  border-radius: 5px;
+  /* width: 150px; */
+  text-align: left;
+  background-color: white;
+  padding:inherit;
+  margin:inherit;
+}
+.sub-menu li a {
+  color: #303030;
+  padding: 5px;
+}
+.sub-menu li:hover a {
+  background-color: white;
+  color: #cfb995;
+}
+.hr-sub-menu {
+  background-color: #57dbe6;
+  border: none;
+  height: 1px;
+  margin:2px;
+ 
+}
+.img3 {
+  object-fit: cover;
+  width: 100%;
+  border: #57dbe6 1px solid;
+}
+.card {
+  position: relative;
+}
+.heading,
+.heading1 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.heading {
+  top: 5%;
+  color: #cfb995;
+  font-size: 2.3rem;
+  
+}
+.head {
+  width: 350px;
+  height: 72px;
+}
+.heading1 {
+  top: 20%;
+  color: white;
+  font-size: 1.1rem;
+}
+.img4 {
+  margin-left: 70px;
+  padding-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+#input {
+  top: 40%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+#input a {
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 7px;
+}
+.jokes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jokes > div a {
+  padding: 14px;
+  margin: 10px;
+  border-radius: 2px;
+  text-decoration: none;
+  width: 150px;
+  justify-content: center;
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+}
+.J1,
+.J2,
+.J3,
+.J5,
+.J6,
+.J7 {
+  color: white;
+}
+.J8 {
+  color: #cfb995;
+}
+.J1 {
+  background-color: #ff5b5b;
+}
+.J2 {
+  background-color: #ff915b;
+}
+.J3 {
+  background-color: #ffbe5b;
+}
+.J4 {
+  background-color: #ffdf5b;
+  color: #57dbe6;
+}
+.J5 {
+  background-color: #8fe360;
+}
+.J6 {
+  background-color: #57e690;
+}
+.J7 {
+  background-color: #57dbe6;
+}
+.J8 {
+  border: 0.5px solid grey;
+}
+.img5 {
+  padding-left: 45px;
+}
+.p-separation {
+  border-radius: 30px;
+  background-color: #57e690;
+  color: white;
+  width: 12%;
+  position: relative;
+  top: -5%;
+  padding-left: 5px;
+  margin: inherit;
+}
+.hr-separation {
+  background-color: rgb(202, 199, 199);
+  border: none;
+  height: 1px;
+  margin: 17px 40px 0px 40px;
+}
+.section3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.section3div {
+  background-color: white;
+  width: 30%;
+  margin: 7.75px;
+  /* padding: 10px; */
+}
+.section3div P {
+  padding: 15.5px;
+  font-size: 0.8rem;
+}
+h3 {
+  font-weight: bolder;
+  font-size: 0.75rem;
+  padding: 16px 122px 0 32px;
+  width: 100%;
+  height: 42px;
+}
+h3 img {
+  padding-right: 5px;
+}
+.stats {
+  padding-top: 10px;
+  text-align: right;
+  color: #cfb995;
+  background-color: white;
+  height: 68px;
+}
+.stats img {
+  padding-left: 10px;
+}
+.section3div:hover {
+  border: 1px solid #57dbe6;
+}
+.view {
+  color: #cfb995;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  width: 150px;
+  border: #cfb995 1px solid;
+  margin: 30px auto;
+}
+.img6 {
+  object-fit: cover;
+  width: 100%;
+}
+footer {
+  position: relative;
+}
+.footerlink {
+  color: #cfb995;
+}
+.footerlink a {
+  text-decoration: none;
+  color: #cfb995;
+}
+.p1,
+.p2,
+.footerlink {
+  position: absolute;
+  padding-left: 90px;
+  font-size: 0.8rem;
+}
+.p1,
+.p2 {
+  color: white;
+}
+.p1 {
+  bottom: 70px;
+}
+.p2 {
+  bottom: 50px;
+}
+.footerlink {
+  bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .heading {
+    top: 8%;
+  }
+  .heading1 {
+    top: 25%;
+  }
+  #input {
+    top: 45%;
+  }
+  h3 {
+    padding: 16px 2px 0 2px;
+  }
+  .p1,
+  .p2,
+  .footerlink {
+    font-size: 0.6rem;
+    padding-left: 50px;
+  }
+  .p1 {
+    bottom: 45px;
+  }
+  .p2 {
+    bottom: 30px;
+  }
+  .footerlink {
+    bottom: 15px;
+  }
+  .footerlink img {
+    width: 10px;
+  }
+  .p-separation {
+    width: 25%;
+
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrapper {
+    padding-right: 0;
+  }
+  .wrapper a {
+    width: 120px;
+    font-size: 0.5rem;
+  }
+  .img2 {
+    padding-left: 2px;
+  }
+  .img1,
+  .img2 {
+    width: 15%;
+  }
+  .heading,
+  .heading1 {
+    font-size: 0.8rem;
+  }
+  .heading {
+    top: 8%;
+  }
+  .heading1 {
+    top: 16%;
+  }
+  #input {
+    top: 35%;
+    font-size: 0.7rem;
+  }
+  a .placeholder:hover{
+    background-color: white;
+    color:black;
+  }
+  #input a {
+    width: 30%;
+    padding: 2px;
+  }
+  .img4 {
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+  .jokes > div a {
+    width: 150px;
+    margin: 5px;
+  }
+  .p-separation {
+    width: 120px;
+  }
+  .section3div {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+  }
+  h3 {
+    padding: 5px 0px 0px 5px;
+    height: 15px;
+  }
+  .p1,
+  .p2,
+  .footerlink {
+    font-size: 0.6rem;
+    padding-left: 50px;
+  }
+  .p1 {
+    bottom: 40px;
+  }
+  .p2 {
+    bottom: 25px;
+  }
+  .footerlink {
+    bottom: 12px;
+  }
+  .footerlink img {
+    width: 10px;
+  }
+  .p-separation {
+    width: 40%;
+  }
+}
